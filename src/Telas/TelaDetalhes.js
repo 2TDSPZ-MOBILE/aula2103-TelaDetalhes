@@ -5,7 +5,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function TelaDetalhes({ route, navigation }) {
     const dados = route.params.item
-
+    console.log(dados)
     return (
         <ImageBackground
             source={require("../../assets/BG.png")}
